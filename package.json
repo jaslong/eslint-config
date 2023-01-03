@@ -1,0 +1,26 @@
+{
+  "name": "@jaslong/eslint-config",
+  "version": "0.0.1",
+  "author": "Jason Long <j@jaslong.com> (https://github.com/jaslong)",
+  "license": "MIT",
+  "description": "Jason's ESLint configs (TypeScript only)",
+  "homepage": "https://github.com/jaslong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaslong/eslint-config.git"
+  },
+
+  "files": [
+    "index.js"
+  ],
+
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "eslint": "*",
+    "eslint-import-resolver-typescript": "*",
+    "eslint-plugin-import": "*"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "5.48.0"
+  }
+}
